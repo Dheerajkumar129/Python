@@ -1,3 +1,5 @@
+updating the code 
+
 #To check whether the program is prime or not
 '''n = int(input("Enter the number: "))
 
