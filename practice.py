@@ -92,13 +92,26 @@ if "peak" in txt:
 if "expensive" not in txt:
     print("No, 'expensive' is not present.")
 
+#Set Datatype
+thisset = ("apple", "banana", "cherry", True,1,2,0,False)
+print(thisset)
+print(len(thisset))
 
+#Frozenset Datatype
+a = {10,20,30,40}
+fs = frozenset(a)
+print(fs)
 
+#List
+friends = ["Joseph", "Glen", "Sally"]
+for friend in friends:
+    print("Good Morning ", friend)
 
+    for i in range(len(friends)):
+        friend = friends[i]
+        print("Happy New Year ",friend)
 
-
-
-
-
-
-
+#list can be sliced using...
+t = [9,41,12,3,74,15]
+print(t[1:3])
+print(t[:4])
